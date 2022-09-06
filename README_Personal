@@ -1,0 +1,12 @@
+To update to the latest upstream QMK version:
+# git checkout master
+# git fetch upstream
+# git pull upstream master
+# git push origin master
+
+Do the standard work in a different branch (i.e. specific for a keymap) 
+# git checkout keymap/metsie
+
+If any conflicts occur: 
+https://docs.qmk.fm/#/newbs_git_resolving_merge_conflicts
+https://docs.qmk.fm/#/newbs_git_resynchronize_a_branch
